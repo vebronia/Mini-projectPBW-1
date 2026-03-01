@@ -29,6 +29,7 @@ Website ini dibuat untuk memahami:
 <summary><b>📂 Struktur Folder</b></summary>
 <br>
 
+</details>
 
 mini_project1_pab/
 │
@@ -236,8 +237,6 @@ mini_project1_pab/
 │
 └─ README.md
 ```
-
-</details>
 
 <details>
 <summary><b>🎯 Tujuan Project</b></summary>
