@@ -35,14 +35,9 @@ Website ini dibuat untuk memahami:
 <summary><b>🏠 1. Home Page</b></summary>
 <br>
 
-<!-- ===== TEMPAT SCREENSHOT HOME ===== -->
-
 <div align="center">
 
-<!-- MASUKKAN SCREENSHOT HOME DI SINI -->
-<!-- Contoh:
-<img src="LINK_SCREENSHOT_HOME" width="100%">
--->
+<img width="1919" height="890" alt="Screenshot 2026-03-01 112857" src="https://github.com/user-attachments/assets/605178b8-b301-47f8-9359-8f2bbe3b2fa0" />
 
 </div>
 
@@ -53,17 +48,14 @@ Menampilkan Hero Section yang berisi foto profil, nama lengkap, deskripsi singka
 
 </details>
 
----
 
 <details>
 <summary><b>👩‍💻 2. About Me</b></summary>
 <br>
 
-<!-- ===== TEMPAT SCREENSHOT ABOUT ===== -->
-
 <div align="center">
 
-<!-- MASUKKAN SCREENSHOT ABOUT DI SINI -->
+<img width="1917" height="887" alt="Screenshot 2026-03-01 112937" src="https://github.com/user-attachments/assets/52ecb9a9-8aa3-4091-ac4f-3618fe742f45" />
 
 </div>
 
@@ -74,17 +66,13 @@ Berisi penjelasan singkat tentang latar belakang dan minat saya di bidang teknol
 
 </details>
 
----
-
 <details>
 <summary><b>📜 3. Certificates</b></summary>
 <br>
 
-<!-- ===== TEMPAT SCREENSHOT CERTIFICATE ===== -->
-
 <div align="center">
 
-<!-- MASUKKAN SCREENSHOT CERTIFICATE DI SINI -->
+<img width="1919" height="891" alt="Screenshot 2026-03-01 113029" src="https://github.com/user-attachments/assets/7095e0e4-cf9e-4a8e-9725-47c65e51698e" />
 
 </div>
 
@@ -95,11 +83,9 @@ Menampilkan daftar sertifikat dalam bentuk card menggunakan Bootstrap Grid Syste
 
 </details>
 
----
 
 # 🧩 Penjelasan Setiap Section / Fitur
 
----
 
 <details>
 <summary><b>1️⃣ Navbar</b></summary>
@@ -112,15 +98,14 @@ Navbar saya gunakan untuk navigasi agar pengguna dapat berpindah ke bagian About
 Agar navbar tetap berada di bagian atas saat halaman di-scroll sehingga terlihat lebih modern dan memudahkan navigasi.
 
 **Kode utama:**
-```html
+html
 <nav class="navbar navbar-expand-lg fixed-top">
-```
+
 
 Saya juga menambahkan efek glass (blur dan transparansi) agar tampilannya lebih premium dan tidak terlihat polos.
 
 </details>
 
----
 
 <details>
 <summary><b>2️⃣ Hero Section (Home)</b></summary>
@@ -132,22 +117,19 @@ Bagian ini merupakan tampilan pertama saat website dibuka. Di sini saya menampil
 Saya menambahkan sedikit efek interaksi pada foto profil agar tampilan tidak kaku dan terasa lebih hidup.
 
 **Kode utama:**
-```html
+html
 <section class="hero-section">
-```
 
 **Efek hover foto:**
-```css
+css
 .profile-img:hover {
   transform: scale(1.05);
 }
-```
 
 Menurut saya, efek kecil seperti ini membuat tampilan lebih interaktif namun tetap clean dan elegan.
 
 </details>
 
----
 
 <details>
 <summary><b>3️⃣ About Section</b></summary>
@@ -159,15 +141,13 @@ Bagian ini saya gunakan untuk menjelaskan sedikit tentang diri saya, minat saya 
 Agar tampilannya tidak terlihat datar, saya menggunakan desain glass effect sehingga terlihat lebih modern dan estetik.
 
 **Kode utama:**
-```html
+html
 <div class="glass-section">
-```
 
 Efek glass dibuat menggunakan kombinasi background transparan dan backdrop blur sehingga memberikan kesan premium.
 
 </details>
 
----
 
 <details>
 <summary><b>4️⃣ Certificates Section</b></summary>
@@ -179,16 +159,14 @@ Pada bagian ini saya menampilkan sertifikat yang pernah saya peroleh dalam bentu
 Saya menggunakan Bootstrap Grid System agar tampilan tetap responsif di berbagai ukuran layar.
 
 **Grid layout utama:**
-```html
+html
 <div class="row">
   <div class="col-md-4">
-```
 
 Saya juga menambahkan efek hover pada card atau gambar agar tidak terlihat monoton dan lebih interaktif.
 
 </details>
 
----
 
 # 🛠 Teknologi yang Digunakan
 
@@ -220,7 +198,6 @@ mini_project1_pab/
 
 </details>
 
----
 
 <details>
 <summary><b>🎯 Tujuan Project</b></summary>
