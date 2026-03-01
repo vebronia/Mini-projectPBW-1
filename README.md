@@ -29,8 +29,9 @@ Website ini dibuat untuk memahami:
 
 <div align="center">
 
-<!-- GANTI LINK DI BAWAH INI DENGAN SCREENSHOT KAMU -->
-<img src="LINK_SCREENSHOT_HOME" width="900"/>
+
+<img width="1919" height="890" alt="image" src="https://github.com/user-attachments/assets/91b19eea-33d9-45dc-85f0-f4f6f6bfd97f" />
+
 
 </div>
 
@@ -45,8 +46,7 @@ Menampilkan Hero Section yang berisi foto profil, nama lengkap, dan deskripsi si
 
 <div align="center">
 
-<!-- GANTI LINK DI BAWAH INI DENGAN SCREENSHOT KAMU -->
-<img src="LINK_SCREENSHOT_ABOUT" width="900"/>
+<img width="1917" height="887" alt="image" src="https://github.com/user-attachments/assets/19c7d6da-0240-4f02-885c-e15504945bda" />
 
 </div>
 
@@ -61,8 +61,7 @@ Berisi deskripsi singkat tentang latar belakang dan minat di bidang teknologi de
 
 <div align="center">
 
-<!-- GANTI LINK DI BAWAH INI DENGAN SCREENSHOT KAMU -->
-<img src="LINK_SCREENSHOT_CERTIFICATE" width="900"/>
+<img width="1919" height="891" alt="image" src="https://github.com/user-attachments/assets/36bbb512-6f36-4fdb-b790-46644b6e4737" />
 
 </div>
 
