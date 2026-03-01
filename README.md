@@ -1,5 +1,4 @@
-# Mini-projectPBW-1  
-# Mini-Project1-PAB  
+# Mini-projectPBW-1    
 # Personal Portfolio Website 💻✨
 
 | Nama                  | NIM         | Kelas               |
