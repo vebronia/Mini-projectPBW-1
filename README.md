@@ -95,17 +95,18 @@ Menampilkan daftar sertifikat dalam bentuk card menggunakan Bootstrap Grid Syste
 <br>
 
 **Fungsi:**  
-Sebagai navigasi utama untuk berpindah antar section.
+Navbar ini aku pakai buat navigasi biar user gampang pindah ke bagian About, Certificates, atau Contact tanpa harus scroll lama.
+
+**Kenapa pakai fixed-top?**  
+Supaya navbar tetap ada di atas walaupun halaman di-scroll, jadi lebih enak dan modern tampilannya.
 
 **Kode utama:**
 ```html
 <nav class="navbar navbar-expand-lg fixed-top">
 ```
 
-**Penjelasan:**
-- `navbar-expand-lg` → Responsive  
-- `fixed-top` → Navbar tetap di atas saat scroll  
-- Efek glass menggunakan `backdrop-filter`
+**Tambahan styling:**  
+Aku kasih efek glass (blur & transparan) biar kelihatan premium dan nggak polos banget.
 
 </details>
 
@@ -116,7 +117,9 @@ Sebagai navigasi utama untuk berpindah antar section.
 <br>
 
 **Fungsi:**  
-Menampilkan identitas utama pemilik website.
+Ini bagian pertama yang langsung kelihatan waktu website dibuka. Jadi aku pakai buat nunjukin identitas utama — foto, nama, dan deskripsi singkat.
+
+Biar nggak kaku, fotonya aku kasih efek zoom dikit pas di-hover supaya ada interaksi kecil.
 
 **Kode utama:**
 ```html
@@ -130,6 +133,8 @@ Menampilkan identitas utama pemilik website.
 }
 ```
 
+Menurutku ini bikin tampilannya jadi lebih hidup tapi tetap clean.
+
 </details>
 
 ---
@@ -139,19 +144,16 @@ Menampilkan identitas utama pemilik website.
 <br>
 
 **Fungsi:**  
-Menjelaskan profil singkat dan minat.
+Bagian ini aku pakai buat jelasin sedikit tentang diri aku, minat aku di bidang teknologi, dan apa yang lagi aku pelajari.
+
+Supaya nggak kelihatan flat, aku pakai desain glass effect biar lebih modern dan estetik.
 
 **Kode utama:**
 ```html
 <div class="glass-section">
 ```
 
-**Efek glass:**
-```css
-background: rgba(255,255,255,0.08);
-backdrop-filter: blur(14px);
-border-radius: 20px;
-```
+Efek glass ini pakai blur dan background transparan, jadi kelihatan soft dan premium.
 
 </details>
 
@@ -162,20 +164,17 @@ border-radius: 20px;
 <br>
 
 **Fungsi:**  
-Menampilkan sertifikat dalam bentuk card.
+Di sini aku tampilin sertifikat yang pernah aku dapet. Aku pakai bentuk card biar rapi dan enak dilihat.
 
-**Grid Layout:**
+Layout-nya pakai Bootstrap grid supaya responsif dan tetap bagus di layar HP maupun laptop.
+
+**Grid layout:**
 ```html
 <div class="row">
   <div class="col-md-4">
 ```
 
-**Hover image:**
-```css
-.cert-img:hover {
-  transform: scale(1.05);
-}
-```
+Gambarnya juga aku kasih efek zoom pas hover biar nggak monoton.
 
 </details>
 
@@ -186,26 +185,11 @@ Menampilkan sertifikat dalam bentuk card.
 <br>
 
 **Fungsi:**  
-Menampilkan informasi kontak seperti email dan media sosial.
+Bagian ini aku pakai buat kasih info kontak supaya kalau ada yang mau hubungi aku bisa langsung lihat di sini.
 
-Menggunakan container Bootstrap dan custom CSS agar konsisten dengan desain.
-
-</details>
-
----
-
-<details>
-<summary><b>🛠 Teknologi yang Digunakan</b></summary>
-<br>
-
-- HTML5  
-- CSS3  
-- Bootstrap 5  
-- Google Fonts  
-- Responsive Web Design  
+Desainnya aku samakan dengan section lain supaya konsisten dan tetap pakai glass style.
 
 </details>
-
 ---
 
 <details>
