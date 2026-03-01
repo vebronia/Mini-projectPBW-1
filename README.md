@@ -5,7 +5,7 @@
 |-----------------------|------------|---------------------|
 | Vebronia Vitania Lusi | 2409116112 | Sistem Informasi C  |
 
-
+---
 
 <details open>
 <summary><b>📌 Deskripsi Aplikasi</b></summary>
@@ -25,27 +25,7 @@ Website ini dibuat untuk memahami:
 
 </details>
 
-<details>
-<summary><b>📂 Struktur Folder</b></summary>
-<br>
-
-</details>
-
-mini_project1_pab/
-│
-├─ index.html
-├─ style.css
-├─ assets/
-│  ├─ images/
-│  │  ├─ profile.jpg
-│  │  ├─ certificate1.jpg
-│  │  └─ certificate2.jpg
-│
-└─ README.md
-```
-
-</details>
-
+---
 
 # 🖼 Tampilan Website
 
@@ -237,6 +217,10 @@ mini_project1_pab/
 │
 └─ README.md
 ```
+
+</details>
+
+---
 
 <details>
 <summary><b>🎯 Tujuan Project</b></summary>
