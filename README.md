@@ -1,4 +1,4 @@
-# Mini-projectPBW-1
+# Mini-projectPBW-1  
 # Mini-Project1-PAB  
 # Personal Portfolio Website 💻✨
 
@@ -8,16 +8,21 @@
 
 ---
 
-## Deskripsi Aplikasi
+<details open>
+<summary><b>📌 Deskripsi Aplikasi</b></summary>
+<br>
 
 Website **Personal Portfolio** adalah website berbasis **HTML, CSS, dan Bootstrap 5** yang menampilkan profil pribadi, informasi tentang diri, sertifikat, dan kontak.
 
 Website ini dibuat untuk memahami:
-- Struktur dasar HTML
-- Styling menggunakan CSS
-- Pemanfaatan Bootstrap 5
-- Penerapan desain modern (Glassmorphism / Premium UI)
-- Responsive Design
+
+- Struktur dasar HTML  
+- Styling menggunakan CSS  
+- Pemanfaatan Bootstrap 5  
+- Penerapan desain modern (Glassmorphism / Premium UI)  
+- Responsive Design  
+
+</details>
 
 ---
 
@@ -25,13 +30,13 @@ Website ini dibuat untuk memahami:
 
 ---
 
-## 🏠 1. Home Page
+<details>
+<summary><b>🏠 1. Home Page</b></summary>
+<br>
 
 <div align="center">
 
-
-<img width="1919" height="890" alt="image" src="https://github.com/user-attachments/assets/91b19eea-33d9-45dc-85f0-f4f6f6bfd97f" />
-
+<img width="1919" height="890" src="https://github.com/user-attachments/assets/91b19eea-33d9-45dc-85f0-f4f6f6bfd97f"/>
 
 </div>
 
@@ -40,13 +45,17 @@ Website ini dibuat untuk memahami:
 Menampilkan Hero Section yang berisi foto profil, nama lengkap, dan deskripsi singkat.
 </p>
 
+</details>
+
 ---
 
-## 👩‍💻 2. About Me
+<details>
+<summary><b>👩‍💻 2. About Me</b></summary>
+<br>
 
 <div align="center">
 
-<img width="1917" height="887" alt="image" src="https://github.com/user-attachments/assets/19c7d6da-0240-4f02-885c-e15504945bda" />
+<img width="1917" height="887" src="https://github.com/user-attachments/assets/19c7d6da-0240-4f02-885c-e15504945bda"/>
 
 </div>
 
@@ -55,13 +64,17 @@ Menampilkan Hero Section yang berisi foto profil, nama lengkap, dan deskripsi si
 Berisi deskripsi singkat tentang latar belakang dan minat di bidang teknologi dengan desain glass effect.
 </p>
 
+</details>
+
 ---
 
-## 📜 3. Certificates
+<details>
+<summary><b>📜 3. Certificates</b></summary>
+<br>
 
 <div align="center">
 
-<img width="1919" height="891" alt="image" src="https://github.com/user-attachments/assets/36bbb512-6f36-4fdb-b790-46644b6e4737" />
+<img width="1919" height="891" src="https://github.com/user-attachments/assets/36bbb512-6f36-4fdb-b790-46644b6e4737"/>
 
 </div>
 
@@ -70,13 +83,17 @@ Berisi deskripsi singkat tentang latar belakang dan minat di bidang teknologi de
 Menampilkan daftar sertifikat dalam bentuk card menggunakan Bootstrap Grid System.
 </p>
 
+</details>
+
 ---
 
 # 🧩 Penjelasan Setiap Section
 
 ---
 
-## 1️⃣ Navbar
+<details>
+<summary><b>1️⃣ Navbar</b></summary>
+<br>
 
 **Fungsi:**  
 Sebagai navigasi utama untuk berpindah antar section.
@@ -87,13 +104,17 @@ Sebagai navigasi utama untuk berpindah antar section.
 ```
 
 **Penjelasan:**
-- `navbar-expand-lg` → Responsive
-- `fixed-top` → Navbar tetap di atas saat scroll
+- `navbar-expand-lg` → Responsive  
+- `fixed-top` → Navbar tetap di atas saat scroll  
 - Efek glass menggunakan `backdrop-filter`
+
+</details>
 
 ---
 
-## 2️⃣ Hero Section
+<details>
+<summary><b>2️⃣ Hero Section</b></summary>
+<br>
 
 **Fungsi:**  
 Menampilkan identitas utama pemilik website.
@@ -110,9 +131,13 @@ Menampilkan identitas utama pemilik website.
 }
 ```
 
+</details>
+
 ---
 
-## 3️⃣ About Section
+<details>
+<summary><b>3️⃣ About Section</b></summary>
+<br>
 
 **Fungsi:**  
 Menjelaskan profil singkat dan minat.
@@ -129,9 +154,13 @@ backdrop-filter: blur(14px);
 border-radius: 20px;
 ```
 
+</details>
+
 ---
 
-## 4️⃣ Certificates Section
+<details>
+<summary><b>4️⃣ Certificates Section</b></summary>
+<br>
 
 **Fungsi:**  
 Menampilkan sertifikat dalam bentuk card.
@@ -149,28 +178,40 @@ Menampilkan sertifikat dalam bentuk card.
 }
 ```
 
+</details>
+
 ---
 
-## 5️⃣ Contact Section
+<details>
+<summary><b>5️⃣ Contact Section</b></summary>
+<br>
 
 **Fungsi:**  
 Menampilkan informasi kontak seperti email dan media sosial.
 
 Menggunakan container Bootstrap dan custom CSS agar konsisten dengan desain.
 
----
-
-# 🛠 Teknologi yang Digunakan
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- Google Fonts
-- Responsive Web Design
+</details>
 
 ---
 
-# 📂 Struktur Folder
+<details>
+<summary><b>🛠 Teknologi yang Digunakan</b></summary>
+<br>
+
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- Google Fonts  
+- Responsive Web Design  
+
+</details>
+
+---
+
+<details>
+<summary><b>📂 Struktur Folder</b></summary>
+<br>
 
 ```text
 mini_project1_pab/
@@ -186,14 +227,20 @@ mini_project1_pab/
 └─ README.md
 ```
 
+</details>
+
 ---
 
-# 🎯 Tujuan Project
+<details>
+<summary><b>🎯 Tujuan Project</b></summary>
+<br>
 
 Project ini dibuat sebagai:
-- Tugas Mini Project 1 PAB
-- Implementasi HTML & CSS
-- Penerapan Bootstrap 5
-- Latihan membuat website portfolio modern
+- Tugas Mini Project 1 PAB  
+- Implementasi HTML & CSS  
+- Penerapan Bootstrap 5  
+- Latihan membuat website portfolio modern  
+
+</details>
 
 ---
