@@ -1,17 +1,19 @@
-# Mini-projectPBW-1    
+# Mini-projectPBW-1  
 # Personal Portfolio Website 💻✨
 
 | Nama                  | NIM         | Kelas               |
 |-----------------------|------------|---------------------|
 | Vebronia Vitania Lusi | 2409116112 | Sistem Informasi C  |
 
----
+
 
 <details open>
 <summary><b>📌 Deskripsi Aplikasi</b></summary>
 <br>
 
-Website **Personal Portfolio** adalah website berbasis **HTML, CSS, dan Bootstrap 5** yang menampilkan profil pribadi, informasi tentang diri, sertifikat, dan kontak.
+Website **Personal Portfolio** adalah website berbasis **HTML, CSS, dan Bootstrap 5** yang menampilkan profil pribadi, informasi tentang diri, serta sertifikat yang pernah saya peroleh.
+
+Pada bagian Home, saya juga menampilkan username Instagram sebagai identitas digital saya.
 
 Website ini dibuat untuk memahami:
 
@@ -23,7 +25,26 @@ Website ini dibuat untuk memahami:
 
 </details>
 
----
+<details>
+<summary><b>📂 Struktur Folder</b></summary>
+<br>
+
+
+mini_project1_pab/
+│
+├─ index.html
+├─ style.css
+├─ assets/
+│  ├─ images/
+│  │  ├─ profile.jpg
+│  │  ├─ certificate1.jpg
+│  │  └─ certificate2.jpg
+│
+└─ README.md
+```
+
+</details>
+
 
 # 🖼 Tampilan Website
 
@@ -33,15 +54,20 @@ Website ini dibuat untuk memahami:
 <summary><b>🏠 1. Home Page</b></summary>
 <br>
 
+<!-- ===== TEMPAT SCREENSHOT HOME ===== -->
+
 <div align="center">
 
-<img width="1919" height="890" src="https://github.com/user-attachments/assets/91b19eea-33d9-45dc-85f0-f4f6f6bfd97f"/>
+<!-- MASUKKAN SCREENSHOT HOME DI SINI -->
+<!-- Contoh:
+<img src="LINK_SCREENSHOT_HOME" width="100%">
+-->
 
 </div>
 
 <p align="center">
 <b><em>Halaman Home</em></b><br>
-Menampilkan Hero Section yang berisi foto profil, nama lengkap, dan deskripsi singkat.
+Menampilkan Hero Section yang berisi foto profil, nama lengkap, deskripsi singkat, serta username Instagram.
 </p>
 
 </details>
@@ -52,15 +78,17 @@ Menampilkan Hero Section yang berisi foto profil, nama lengkap, dan deskripsi si
 <summary><b>👩‍💻 2. About Me</b></summary>
 <br>
 
+<!-- ===== TEMPAT SCREENSHOT ABOUT ===== -->
+
 <div align="center">
 
-<img width="1917" height="887" src="https://github.com/user-attachments/assets/19c7d6da-0240-4f02-885c-e15504945bda"/>
+<!-- MASUKKAN SCREENSHOT ABOUT DI SINI -->
 
 </div>
 
 <p align="center">
 <b><em>Halaman About Me</em></b><br>
-Berisi deskripsi singkat tentang latar belakang dan minat di bidang teknologi dengan desain glass effect.
+Berisi penjelasan singkat tentang latar belakang dan minat saya di bidang teknologi dengan desain glass effect.
 </p>
 
 </details>
@@ -71,9 +99,11 @@ Berisi deskripsi singkat tentang latar belakang dan minat di bidang teknologi de
 <summary><b>📜 3. Certificates</b></summary>
 <br>
 
+<!-- ===== TEMPAT SCREENSHOT CERTIFICATE ===== -->
+
 <div align="center">
 
-<img width="1919" height="891" src="https://github.com/user-attachments/assets/36bbb512-6f36-4fdb-b790-46644b6e4737"/>
+<!-- MASUKKAN SCREENSHOT CERTIFICATE DI SINI -->
 
 </div>
 
@@ -86,7 +116,7 @@ Menampilkan daftar sertifikat dalam bentuk card menggunakan Bootstrap Grid Syste
 
 ---
 
-# 🧩 Penjelasan Setiap Section
+# 🧩 Penjelasan Setiap Section / Fitur
 
 ---
 
@@ -95,31 +125,30 @@ Menampilkan daftar sertifikat dalam bentuk card menggunakan Bootstrap Grid Syste
 <br>
 
 **Fungsi:**  
-Navbar ini aku pakai buat navigasi biar user gampang pindah ke bagian About, Certificates, atau Contact tanpa harus scroll lama.
+Navbar saya gunakan untuk navigasi agar pengguna dapat berpindah ke bagian About dan Certificates dengan mudah tanpa harus scroll terlalu jauh.
 
-**Kenapa pakai fixed-top?**  
-Supaya navbar tetap ada di atas walaupun halaman di-scroll, jadi lebih enak dan modern tampilannya.
+**Kenapa menggunakan fixed-top?**  
+Agar navbar tetap berada di bagian atas saat halaman di-scroll sehingga terlihat lebih modern dan memudahkan navigasi.
 
 **Kode utama:**
 ```html
 <nav class="navbar navbar-expand-lg fixed-top">
 ```
 
-**Tambahan styling:**  
-Aku kasih efek glass (blur & transparan) biar kelihatan premium dan nggak polos banget.
+Saya juga menambahkan efek glass (blur dan transparansi) agar tampilannya lebih premium dan tidak terlihat polos.
 
 </details>
 
 ---
 
 <details>
-<summary><b>2️⃣ Hero Section</b></summary>
+<summary><b>2️⃣ Hero Section (Home)</b></summary>
 <br>
 
 **Fungsi:**  
-Ini bagian pertama yang langsung kelihatan waktu website dibuka. Jadi aku pakai buat nunjukin identitas utama — foto, nama, dan deskripsi singkat.
+Bagian ini merupakan tampilan pertama saat website dibuka. Di sini saya menampilkan foto profil, nama lengkap, deskripsi singkat, serta username Instagram sebagai identitas digital saya.
 
-Biar nggak kaku, fotonya aku kasih efek zoom dikit pas di-hover supaya ada interaksi kecil.
+Saya menambahkan sedikit efek interaksi pada foto profil agar tampilan tidak kaku dan terasa lebih hidup.
 
 **Kode utama:**
 ```html
@@ -133,7 +162,7 @@ Biar nggak kaku, fotonya aku kasih efek zoom dikit pas di-hover supaya ada inter
 }
 ```
 
-Menurutku ini bikin tampilannya jadi lebih hidup tapi tetap clean.
+Menurut saya, efek kecil seperti ini membuat tampilan lebih interaktif namun tetap clean dan elegan.
 
 </details>
 
@@ -144,16 +173,16 @@ Menurutku ini bikin tampilannya jadi lebih hidup tapi tetap clean.
 <br>
 
 **Fungsi:**  
-Bagian ini aku pakai buat jelasin sedikit tentang diri aku, minat aku di bidang teknologi, dan apa yang lagi aku pelajari.
+Bagian ini saya gunakan untuk menjelaskan sedikit tentang diri saya, minat saya di bidang teknologi, serta hal-hal yang sedang saya pelajari.
 
-Supaya nggak kelihatan flat, aku pakai desain glass effect biar lebih modern dan estetik.
+Agar tampilannya tidak terlihat datar, saya menggunakan desain glass effect sehingga terlihat lebih modern dan estetik.
 
 **Kode utama:**
 ```html
 <div class="glass-section">
 ```
 
-Efek glass ini pakai blur dan background transparan, jadi kelihatan soft dan premium.
+Efek glass dibuat menggunakan kombinasi background transparan dan backdrop blur sehingga memberikan kesan premium.
 
 </details>
 
@@ -164,32 +193,30 @@ Efek glass ini pakai blur dan background transparan, jadi kelihatan soft dan pre
 <br>
 
 **Fungsi:**  
-Di sini aku tampilin sertifikat yang pernah aku dapet. Aku pakai bentuk card biar rapi dan enak dilihat.
+Pada bagian ini saya menampilkan sertifikat yang pernah saya peroleh dalam bentuk card agar lebih rapi dan terstruktur.
 
-Layout-nya pakai Bootstrap grid supaya responsif dan tetap bagus di layar HP maupun laptop.
+Saya menggunakan Bootstrap Grid System agar tampilan tetap responsif di berbagai ukuran layar.
 
-**Grid layout:**
+**Grid layout utama:**
 ```html
 <div class="row">
   <div class="col-md-4">
 ```
 
-Gambarnya juga aku kasih efek zoom pas hover biar nggak monoton.
+Saya juga menambahkan efek hover pada card atau gambar agar tidak terlihat monoton dan lebih interaktif.
 
 </details>
 
 ---
 
-<details>
-<summary><b>5️⃣ Contact Section</b></summary>
-<br>
+# 🛠 Teknologi yang Digunakan
 
-**Fungsi:**  
-Bagian ini aku pakai buat kasih info kontak supaya kalau ada yang mau hubungi aku bisa langsung lihat di sini.
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- Google Fonts  
+- Bootstrap Icons  
 
-Desainnya aku samakan dengan section lain supaya konsisten dan tetap pakai glass style.
-
-</details>
 ---
 
 <details>
@@ -212,18 +239,15 @@ mini_project1_pab/
 
 </details>
 
----
-
 <details>
 <summary><b>🎯 Tujuan Project</b></summary>
 <br>
 
 Project ini dibuat sebagai:
+
 - Tugas Mini Project 1 PAB  
 - Implementasi HTML & CSS  
 - Penerapan Bootstrap 5  
-- Latihan membuat website portfolio modern  
+- Latihan membuat website portfolio modern dengan desain premium dan responsif  
 
 </details>
-
----
